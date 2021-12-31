@@ -1,0 +1,19 @@
+function add(arg1: number | string, arg2: number | string) {
+    if (typeof arg1 === 'number' && typeof arg2 === 'number') {
+        return arg1 + arg2;
+    }
+    if (typeof arg1 === 'string' && typeof arg2 === 'string') {
+        return arg1 + arg2;
+    }
+    return;
+}
+
+const a1 = 'Hello';
+const a2 = ' World';
+const r1 = add(a1, a2);
+console.log(r1);
+
+const a3 = 2;
+const a4 = 3;
+const r2 = add(a3, a4);
+console.log(r2);
