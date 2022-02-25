@@ -1,6 +1,7 @@
 # Course from Udemy
 
 Original github source: https://github.com/franneck94/UdemyTS
+
 Original course link: https://www.udemy.com/course/typescript-for-beginners-u/
 
 # TypeScript for Beginners
